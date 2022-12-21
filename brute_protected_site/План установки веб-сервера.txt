@@ -1,0 +1,8 @@
+iP адрес
+
+interval beetwen requests = 10 minutes
+if(ip > 3)
+	each new request + 5 seconds
+
+if(ip too many requests > 10)
+	lock()

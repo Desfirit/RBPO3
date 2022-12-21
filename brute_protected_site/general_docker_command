@@ -1,0 +1,5 @@
+//Создает внутренюю сеть "brute-network-external"
+docker network create -d bridge brute-network-external
+
+//Собрать образ с nginx
+docker build -t nginx-brute ./nginx

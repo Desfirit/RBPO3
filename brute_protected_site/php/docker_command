@@ -1,0 +1,2 @@
+//Запускает контейнер "php-brute" который не доступен из вне и подключить к внутренней сети "brute-network-external"
+docker run --name php-brute --mount type=bind,src="C:\UniversitySpace\Латыпов\Практика 3\Сервант\site",dst=/var/www/html/ -d --network brute-network-external php:fpm

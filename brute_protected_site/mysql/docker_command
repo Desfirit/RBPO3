@@ -1,0 +1,4 @@
+docker run --name mysql-brute -d -e MYSQL_ROOT_PASSWORD=mger --network brute-network-external mysql
+
+
+,MYSQL_DATABASE=dudos,MYSQL_USER=hacker,MYSQL_PASSWORD=228008

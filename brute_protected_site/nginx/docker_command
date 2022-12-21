@@ -1,0 +1,2 @@
+//Запускает контейнер "nginx-brute" с открытым портом 8080 наружу и подключить к внутренней сети "brute-network-external"
+docker run --name nginx-brute --mount type=bind,src="C:\UniversitySpace\Латыпов\Практика 3\Сервант\site",dst=/var/www/html/ -d -p 8080:80 --network brute-network-external nginx-brute
